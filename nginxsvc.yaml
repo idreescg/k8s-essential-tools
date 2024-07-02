@@ -10,4 +10,4 @@ spec:
   ports:
   - protocol: TCP
     port: 8024
-    targetPort: 8025
+    targetPort: 80
