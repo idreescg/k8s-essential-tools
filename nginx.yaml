@@ -16,7 +16,7 @@ spec:
   ports:
   - protocol: TCP
     port: 8024
-    targetPort: 8025
+    targetPort: 80
 
 #nginx-deployment.yaml
 apiVersion: apps/v1
@@ -38,5 +38,5 @@ spec:
       - name: nginx
         image: nginx:latest
         ports:
-        - containerPort: 8025
+        - containerPort: 80
 
